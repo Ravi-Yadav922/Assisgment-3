@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            display: flex;
+            background-color: blue;
+            height: 80px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-sizing: border-box;
+        }
+        .port-1{
+            font-size: 30px;
+            color: white;
+        }
+        .port-2{
+            display: flex;
+            gap: 25px;
+        }
+        a{
+            color: white;
+        }
+        .div2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 10px;
+            box-sizing: border-box;
+        }
+        .div3{
+            flex: 1;
+        }
+        .p1{
+            font-size: 48px;
+            margin: 0;
+        }
+        .p2{
+            font-size: 52px;
+            color: orange;
+            margin: 10px 0;
+        }
+        .p3{
+            font-size: 15px;
+            margin: 0;
+        }
+        .div4 img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+        h1{
+            font-size: 25px;
+            padding: 20px 10px 0px 0px;
+            margin-bottom: 20px;
+        }
+        .div7 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;                             
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        .card span {
+            font-size: 15px;
+            margin-top: 6px;
+        }
+        .projects {
+           display: grid;
+           grid-template-rows: repeat(2, 1fr);
+           gap: 20px;
+        }
+        .project {
+           background: white;
+           border: 1px solid wheat;
+           padding: 30px;
+           border-radius: 5px;
+           text-align: center;
+           box-sizing: border-box;
+           width: 1200px;
+           height: 180px;
+           margin: 0 120px;
+        }
+        .project h2 {
+           margin: 0 0 10px 0;
+           font-size: 18px;
+           padding: 0;
+        }
+        .project p {
+           margin: 0;
+           color: grey;
+           font-size: 14px;
+        }
+        .form {
+            background: white;
+            padding: 25px 30px;
+            border: 1px solid wheat;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 350px;
+            margin: 0 auto;
+        }
+        .form label {
+            font-size: 12px;
+            color: grey;
+        }
+        .form input, 
+        .form textarea {
+            padding: 8px 10px;
+            border: 1px solid navy;
+            border-radius: 4px;
+            font-size: 13px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .form textarea {
+            height: 80px;
+        }
+        .form button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .div10 {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+            font-size: 13px;
+            margin-top: 50px;
+        }
+        .div10 p {
+            margin: 0;
+        }
+        .btp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: blue;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+    </style>
+    </head>
+    <body>
+<div class="div0">
+    <div class="div1">
+        <div class="port port-1">My Portfolio</div>
+        <div class="port port-2">
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="div2">
+    <div class="div3">
+    <p class="p1">Hi, I am</p>
+    <p class="p2">Full Stack Developer</p>
+    <p class="p3">Building modern web applications with MERN stack</p>
+    </div>
+    <div class="div4">
+    <img src="./img.jpg" alt="">
+    </div>
+    </div>
+    <div class="div5">
+        <h1>About me</h1>
+        <p>Hello! My name is Ravi Yadav, and I am currently learning web development. This is my first portfolio website where I showcase my passion for creating interactive and responsive web pages. I am a student at KR Mangalam University, pursuing a B.Tech degree, and I am deeply interested in technology and coding. I love exploring new skills every day, and I always aim to improve my knowledge in the field of web development. With a hardworking and consistent mindset, I am determined to grow as a developer and build creative projects that make a real impact.</p>
+    </div>
+    <div class="div6">
+        <h1>My Skills</h1>
+        <div class="div7">
+            <div class="card"><b>HTML</b><br><span>Beginner</span></div>
+            <div class="card"><b>CSS</b><br><span>Beginner</span></div>
+            <div class="card"><b>JavaScript</b><br><span>Learning</span></div>
+        </div>
+    </div>
+    <div class="div8">
+        <h1>My Projects</h1>
+        <div class="projects">
+            <div class="project">
+                <h2>Project 1</h2>
+                <p>A simple HTML & CSS webpage.</p>
+            </div>
+            <div class="project">
+                <h2>Project 2</h2>
+                <p>Another awesome mini project.</p>
+            </div>
+        </div>
+    </div>
+    <div class="div9">
+        <h1>Contact Me</h1>
+        <form class="form">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+            
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+            
+            <label>Message:</label>
+            <textarea placeholder="Write your message"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="div10">
+        <p>&copy; 2026 Ravi Yadav. All rights reserved.</p>
+    </div>
+    <a href="#" class="btp">Back to Top</a>
+</div>
+</body>
+</html>
